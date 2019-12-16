@@ -8,8 +8,8 @@
 public class ExerciceJava {
 
 	/**
-	 * @author
-	 * @param args
+	 * @author reda
+	 * @param args 
 	 */
 	public static void main(String[] args)
 	
