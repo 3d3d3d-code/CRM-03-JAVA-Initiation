@@ -19,6 +19,8 @@ public class ExerciceJava {
 	{
 		
 System.out.println("hello!");
+System.out.println("how are you");
+
 
 	
 	
