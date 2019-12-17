@@ -21,15 +21,11 @@ public class ExerciceJava {
 System.out.println("hello!");
 System.out.println("how are you");
 
-<<<<<<< master
 		System.out.println("hello!");
 		System.out.println("how are you");
-	    System.out.println("fine");
-=======
->>>>>>> 65f5c48 Format
-
+	    System.out.println("fine"); 
 	
-	
+	}
 	
 		
 		
@@ -42,4 +38,4 @@ System.out.println("how are you");
 
 	}
 
-}
+
