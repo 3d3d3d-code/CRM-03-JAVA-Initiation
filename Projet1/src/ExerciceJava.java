@@ -17,6 +17,7 @@ public class ExerciceJava {
 
 		System.out.println("hello!");
 		System.out.println("how are you");
+	    System.out.println("fine");
 
 		// TODO Auto-generated method stub
 
