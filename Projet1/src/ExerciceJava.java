@@ -1,4 +1,4 @@
-
+import java.util.*;
 /**
  * @author CRM
  * @since 2019
@@ -14,8 +14,8 @@ public class ExerciceJava {
 	public static void main(String[] args) {
 
 		System.out.println("hello!");
-		System.out.println("how are you");
-		System.out.println("fine");
+		System.out.println("how are you ?");
+		System.out.println(" i'm fine");
 
 	}
 
