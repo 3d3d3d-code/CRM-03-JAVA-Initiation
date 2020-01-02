@@ -12,8 +12,10 @@ public class StringTest {
 
 	/**
 	 * @param args
+	 * @return 
+	 
 	 */
-	public static void main(String[] args) {
+	public static  void main(String[] args) {
 		
 		String texte;
 		texte ="bonjour";
@@ -21,6 +23,14 @@ public class StringTest {
 
 		 texte = "au revoir";
 		System.out.println(texte);
+		
+		float dec;
+		dec = 25.2F;
+		
+		System.out.println("donner une decimal"+dec);
+
+		
+		
 
 		
 

@@ -5,7 +5,7 @@ package scanner.java;
 
 /**
  * @author CRM
- *
+ * 
  */
 public class util {
 
