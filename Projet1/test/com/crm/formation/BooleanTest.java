@@ -23,10 +23,11 @@ public class BooleanTest {
 		boolean bool5 = bool1 & bool2 ;
 		boolean bool6 = bool1 | bool2 ;
 		boolean bool7 = bool1 ^ bool2 ;*/
-		short nb1,nb2,nb3;
+		short nb1,nb2,nb3,nb4;
 		nb1=1;
 		nb2=2;
 		nb3=3;
+		nb4=7;
 		
 		boolean bool8 = nb1>nb2;
 		boolean bool9 =( nb1==nb2);
