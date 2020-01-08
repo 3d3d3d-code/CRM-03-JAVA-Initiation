@@ -21,14 +21,14 @@ public class volumeCercle {
 		double volume;
 		
 		Scanner sc =new Scanner(System.in);
-		System.out.println("please help me and hunter help you et eventuellement tape le rayon ");
+		System.out.println("entrer le rayon! ");
 		R=sc.nextDouble();
 		volume=Utils.volumeCercle(R);
 		
 		System.out.println(volume);
 		
 		
-		System.out.println("c est pas ça wech ,reviens demain!");
+		System.out.println("le rayon est de");
 		
 		// TODO Auto-generated method stub
 		
