@@ -6,6 +6,10 @@ package com.crm.formation;
 //import java.text.DecimalFormat;
 import java.util.Scanner;
 
+import com.crm.api.Utils;
+
+
+
 /**
  * @author CRM
  *
@@ -31,6 +35,9 @@ public class AireSphere {
 		System.out.println("l'aire de la sphere est de :" + aire +" cm2");
 		double volume =4/3*pi*R*R*R;
 		System.out.println("et son volume est de " + volume +  " cm3");
+		
+	//	Utils.aireCercle(aire, pi);
+
 
 		// TODO Auto-generated method stub
 
