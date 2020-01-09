@@ -1,8 +1,13 @@
 package com.crm.api;
 
+import java.lang.Math;
+import java.lang.String;
+import java.math.MathContext;
+
 public class Utils {
-	
+
 	public static final String COULEUR_BLEUE = "bleue";
+	private static final double PI = 0;
 
 	public static float perimetre(float l, float L) {
 		float p = (l + L) * 2;
@@ -26,16 +31,10 @@ public class Utils {
 		// declaration de la constante PI
 		final double PI = 3.14;
 
-
 		double aire = PI * R * R;
-			
+		double TEST = Math.PI;
 
 		return aire;
-		
-	
-		
-		
-
 	}
 
 	public static double volumeCercle(double R) {
@@ -45,9 +44,18 @@ public class Utils {
 		return volume;
 
 	}
-	
-	
-	
-	
 
+	public static double airecercle2(double R) {
+
+		double aire = Math.PI * Math.pow(R, 2);
+		return aire;
+
+	}
+
+	public static double volumeCercle2(double R) {
+
+		double volume = Math.PI * Math.pow(R, 3);
+		return volume;
+
+	}
 }
