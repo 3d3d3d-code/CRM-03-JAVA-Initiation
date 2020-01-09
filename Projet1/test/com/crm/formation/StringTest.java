@@ -27,9 +27,17 @@ public class StringTest {
 		float dec;
 		dec = 25.2F;
 		
-		System.out.println("donner une decimal"+dec);
-
+		System.out.println("donner une decimal "+ dec);
 		
+		
+		String str = "java c'est c'est genial!!";
+		System.out.println("le nombre de caracteres est de " + str.length( ));
+//mettre en majuscule
+		String str1 = str.toUpperCase();
+		System.out.println(str1);
+		
+		String str2 = str.replace('a', 'e');
+		System.out.println(str2);
 		
 
 		

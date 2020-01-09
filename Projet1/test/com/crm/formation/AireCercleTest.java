@@ -25,7 +25,7 @@ public class AireCercleTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		double R = 5;
+		double R = 6;
 		double aire;
 		
 
@@ -38,7 +38,7 @@ public class AireCercleTest {
 		
 		double volume= Utils.volumeCercle2(R);
 		
-		System.out.println("le volume du cercle est de :" + volume +  "cm3");
+		System.out.println("le volume du cercle est de :" + volume +  " cm3");
 	}
 
 }
