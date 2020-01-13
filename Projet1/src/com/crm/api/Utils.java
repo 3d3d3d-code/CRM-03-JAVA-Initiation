@@ -2,10 +2,6 @@
 // class Utils
 package com.crm.api;
 
-import java.lang.Math;
-import java.lang.String;
-import java.math.MathContext;
-
 public class Utils {
 
 	public static final String COULEUR_BLEUE = "bleue";
@@ -32,10 +28,7 @@ public class Utils {
 	public static double aireCercle(double R) {
 		// declaration de la constante PI
 		final double PI = 3.14;
-
 		double aire = PI * R * R;
-		double TEST = Math.PI;
-
 		return aire;
 	}
 
@@ -60,4 +53,8 @@ public class Utils {
 		return volume;
 
 	}
-}
+	
+	
+		
+	}
+

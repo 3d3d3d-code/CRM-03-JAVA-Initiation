@@ -7,17 +7,13 @@
 
 
 //
-package com.crm.formation; //// class aire cercle
-
-import com.crm.api.Utils;
+package com.crm.api; //// class aire cercle
 
 /**
  * @author CRM
  *
  */
-public class AireCercleTest {
-
-	private static final double PI = 0;
+public class AireCercle {
 
 	/**
 	 * @param args
