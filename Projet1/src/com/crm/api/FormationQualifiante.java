@@ -22,6 +22,7 @@ public class FormationQualifiante {
 			System.out.println("vous allez en CDA");
 			break;
 		case DWM:
+			System.out.println("");
 			
 		}
 
