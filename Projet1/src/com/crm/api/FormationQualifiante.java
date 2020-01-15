@@ -24,6 +24,7 @@ public class FormationQualifiante {
 		case DWM:
 			System.out.println("");
 			
+			
 		}
 
 	}
