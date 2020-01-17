@@ -13,6 +13,7 @@ public class InstructionReturnTest {
 		for (int i = 0; i < nb; i++) {
 			if (i == 5) {				
 				return;
+				
 			}
 			System.out.println(i);
 		}

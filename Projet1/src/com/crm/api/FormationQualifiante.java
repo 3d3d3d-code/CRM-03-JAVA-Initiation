@@ -25,6 +25,7 @@ public class FormationQualifiante {
 			System.out.println("");
 			
 			
+			
 		}
 
 	}
