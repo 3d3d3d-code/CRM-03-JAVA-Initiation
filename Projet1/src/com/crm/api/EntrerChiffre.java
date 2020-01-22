@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class EntrerChiffre {
 
 	public static void main(String[] args) {
-		Scanner sc = new java.util.Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		int chiffre = 0;
 
 		System.out.println("Entrez un chiffre SVP");
