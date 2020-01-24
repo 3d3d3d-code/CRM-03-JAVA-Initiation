@@ -1,12 +1,16 @@
 import java.util.Scanner;
 
 public class CarreTest {
-
+/**
+ * 
+ * @param args
+ */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Entrez le coté du carré");
 		int coté = sc.nextInt();
-		
+		//exercice dessiner un carre
+
 		int i;
 		int j;
 
@@ -16,7 +20,7 @@ public class CarreTest {
 				System.out.print(" ");
 				System.out.print("a");
 			}
-			System.out.print("\n");
+			System.out.println("\n");
 
 			sc.close();
 

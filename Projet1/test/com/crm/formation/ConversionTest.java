@@ -8,7 +8,6 @@ package com.crm.formation;
  *
  */
 public class ConversionTest {
-
 	/**
 	 * @param args
 	 */

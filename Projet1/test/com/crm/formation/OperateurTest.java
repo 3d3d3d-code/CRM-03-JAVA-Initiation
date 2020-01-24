@@ -19,7 +19,7 @@ public class OperateurTest {
 		
 		int maVariableInt2;
 		maVariableInt2=maVariableInt1;
-		//operateur d'assignement ou afectation
+		//operateur d'assignement ou affectation
 		
 		int maVariableInt3;
 		maVariableInt1=maVariableInt2=maVariableInt3=58;

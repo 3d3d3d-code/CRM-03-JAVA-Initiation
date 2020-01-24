@@ -4,10 +4,10 @@
 
 /**
  * @author CRM
- *
  */
-public class WrappersTest {
 
+public class WrappersTest {
+/**la fonction wrapper est la pour appeller une autre fonction
 	/**
 	 * @param args
 	 */
