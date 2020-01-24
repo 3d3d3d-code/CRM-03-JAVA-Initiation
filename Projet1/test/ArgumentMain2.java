@@ -9,14 +9,14 @@
 public class ArgumentMain2 {
 
 	/**
-	 * @param reda
+	 * @param args
 	 * 
 	 */
 	//run configuration/arguments/apply
-	public static void main(String[] reda) {
-		if (reda.length == 4) {
-			System.out.println("Bienvenue " + reda[0] + " " + reda[1] + " " + reda[2]);
-			System.out.println("nous sommes le  " + reda[3]);
+	public static void main(String[] args) {
+		if (args.length == 4) {
+			System.out.println("Bienvenue " + args[0] + " " + args[1] + " " + args[2]);
+			System.out.println("nous sommes le  " + args[3]);
 		}
 
 	}
