@@ -14,7 +14,6 @@ public class TableauChaine {
 		for (int i=tab.length-1;i>=0;i--) {
 			System.out.println(tab1[i]);
 			
-			
 		}
 
 	}
