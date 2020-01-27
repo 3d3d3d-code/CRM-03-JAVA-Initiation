@@ -9,15 +9,16 @@ public class SommeElement {
 		int somme = SommeElement.sommeElementTableau(tab1);
 		System.out.println(somme);
 
-		int tab2[] = {2,5,6,3,};
-		
-		System.out.println("taper un nombre");
-		tab2=sc.nextInt();
-		somme= sommeElementTableau(tab2);
-			System.out.println(somme);
-		}
+		int tab2[] = new int[5];
 
-	
+		for (int i = 0; i < tab2.length; i++) {
+			System.out.println("taper un nombre");
+			tab2[i] = sc.nextInt();
+
+		}
+		somme = sommeElementTableau(tab2);
+		System.out.println("la somme est de :" + somme);
+	}
 
 	/**
 	 * Cette méthode calcule la somme de tous les éléments d'un tableau passé en
