@@ -23,8 +23,6 @@ public class TableauSemaine {
 		String[][] tab = { { "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche" },
 				{ "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday" } };
 
-		//
-		
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("choisir une langue/enter a language");
@@ -46,11 +44,11 @@ public class TableauSemaine {
 						if (jour.equals(tab[0][i])) {
 							// affiche l element du 2eme tableau correspondant au premier tableau
 							System.out.println(tab[1][i]);
-							
+
 							return;
 						}
 						// si pas de correspondance alors erreur
-						
+
 						if (i == tab[0].length - 1) {
 							System.out.println("erreur/mistake");
 
@@ -58,29 +56,29 @@ public class TableauSemaine {
 					}
 				}
 			}
-				// meme chose qu au debut mais pour l'anglais.
-			
-			} else if (langue.equals("anglais/english")) {
-				System.out.println("enter the login");
-				String login2 = sc.nextLine();
-				if (LOGIN.equalsIgnoreCase(login2)) {
-					System.out.println("enter the password");
-					String mdp = sc.nextLine();
-					if (MDP.equalsIgnoreCase(mdp)) {
-						System.out.println("enter a day");
-						String jour = sc.nextLine();
-						for (int i = 0; i < tab[1].length; i++) {
-							if (jour.equals(tab[1][i])) {
-								System.out.println(tab[0][i]);
-								return;
-							}
-							if (i == tab[1].length - 1) {
-								System.out.println("erreur/mistake");
-							}
+			// meme chose qu au debut mais pour l'anglais.
+
+		} else if (langue.equals("anglais/english")) {
+			System.out.println("enter the login");
+			String login2 = sc.nextLine();
+			if (LOGIN.equalsIgnoreCase(login2)) {
+				System.out.println("enter the password");
+				String mdp = sc.nextLine();
+				if (MDP.equalsIgnoreCase(mdp)) {
+					System.out.println("enter a day");
+					String jour = sc.nextLine();
+					for (int i = 0; i < tab[1].length; i++) {
+						if (jour.equals(tab[1][i])) {
+							System.out.println(tab[0][i]);
+							return;
+						}
+						if (i == tab[1].length - 1) {
+							System.out.println("erreur/mistake");
 						}
 					}
 				}
-			
+			}
+
 		} else {
 			System.out.println("choisir français ou anglais");
 		}
