@@ -15,7 +15,6 @@ import java.util.Date;
 //Attributs
 public class Personne {
 
-	public static String afficherDetail;
 	public String surnom;
 	private String nom;
 	private String prenom;
