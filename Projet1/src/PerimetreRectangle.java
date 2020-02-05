@@ -35,7 +35,7 @@ public class PerimetreRectangle {
 
 		System.out.println(" le perimetre du rectangle est de " + perimetre + "cm");
 
-		// TODO Auto-generated method stub
+		
 
 	}
 

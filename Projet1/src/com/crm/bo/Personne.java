@@ -19,40 +19,59 @@ public class Personne {
 	private String nom;
 	private String prenom;
 	protected Date dateNaissance;
-	
+
+	// creation constructeur
+
+	public Personne() {
+
+		nom = "";
+		prenom = "";
+		surnom = "";
+		System.out.println("construction d'un objet");
+	}
+
+	public Personne(String nom, String prenom) {
+		this.prenom = prenom;
+		this.nom = nom;
+	}
+
 	// Methodes
 
 	/**
 	 * @return la methode getNom renvoi la valeur de l'attribut nom
 	 */
+
+	/**
+	 * @return the nom
+	 */
 	public String getNom() {
-
 		return nom;
+	}
 
+	/**
+	 * @param nom the nom to set
+	 */
+	public void setNom(String nom) {
+		this.nom = nom;
 	}
-	public void setNom(String n) {
-		nom=n;
-	}
-	
+
+	/**
+	 * @return the prenom
+	 */
 	public String getPrenom() {
 		return prenom;
-		
 	}
-	public void setPrenom(String p) {
-		prenom=p;
+
+	/**
+	 * @param prenom the prenom to set
+	 */
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
 	}
-	
-	
-	
+
 	public void afficherDetail() {
-		
-		System.out.println("Votre profil est "+ nom + prenom );
-		
-		
-		
-		
+
+		System.out.println( nom  + " " +  prenom );
 	}
-	
-	
 
 }
