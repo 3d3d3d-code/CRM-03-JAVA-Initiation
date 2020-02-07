@@ -14,7 +14,9 @@ public class Rectangle {
 	private int longueur;
 	private int largeur;
 
-//constructeur de l'objet rectangle sans parametres
+/**
+ * {@}constructeur de l'objet rectangle sans parametres*/
+	
 	public Rectangle() {
 
 	}
