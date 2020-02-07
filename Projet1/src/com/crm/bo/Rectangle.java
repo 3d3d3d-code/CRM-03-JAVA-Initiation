@@ -14,19 +14,18 @@ public class Rectangle {
 	private int longueur;
 	private int largeur;
 
-//constructeur de l'objet rectangle
+//constructeur de l'objet rectangle sans parametres
 	public Rectangle() {
-
-		longueur = 0;
-		largeur = 0;
 
 	}
 
-	public Rectangle(int longeur, int largeur) {
-		this.longueur = longeur;
+// Constructeur avec parametres
+	public Rectangle(int longueur, int largeur) {
+		this.longueur = longueur;
 		this.largeur = largeur;
 	}
 
+//Creation des getters et setters
 	/**
 	 * @return the longueur
 	 */
@@ -55,12 +54,37 @@ public class Rectangle {
 		this.largeur = largeur;
 	}
 
+	// Creation methode affichache du perimetre
+
 	public void afficherPerimetre() {
 
-		System.out.println(" le perimetre du rectangle est de : " + (longueur + largeur) * 2 + "cm") ;
+		System.out.println(" le perimetre du rectangle est de : " + calculPerimetre() + "cm");
 	}
-	
+	// Creation méthode
+
 	public void afficherSurface() {
-		System.out.println("la surface du rectangle est de :  " + (longueur * largeur) + "cm2");
+		System.out.println("la surface du rectangle est de :  " + calculSurface() + "cm2");
+	}
+
+	public int calculPerimetre() {
+		return (longueur + largeur) * 2;
+	}
+
+	public int calculSurface() {
+		return (longueur * largeur);
+	}
+
+	// comparer la surface des 2 rectangles
+	public boolean compareRectangle(Rectangle rect) {
+		if (this.calculSurface() > rect.calculSurface()) {
+			System.out.println("le rectangle 1 est plus grand que le rectangle 2");
+
+			return true;
+		} else if (this.calculSurface() < rect.calculSurface()) {
+
+			System.out.println("le rectangle 1 est different");
+		}
+		return false;
+
 	}
 }
