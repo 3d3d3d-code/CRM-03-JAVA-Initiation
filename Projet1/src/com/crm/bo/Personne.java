@@ -71,7 +71,26 @@ public class Personne {
 
 	public void afficherDetail() {
 
-		System.out.println( nom  + " " +  prenom );
+		System.out.println("Personne nom : " + nom + ", prenom : " + prenom + ", surnom : " + surnom);
 	}
 
-}
+	public void afficherDetail(String langue) {
+		if (langue.equals("fr")) {
+			System.out.println("Personne nom : " + nom + ", prenom : " + prenom + ", surnom : " + surnom);
+
+		}
+		if (langue.equals("en")) {
+			System.out.println("Person name : " + nom + ", firstname : " + prenom + ", nickname : " + surnom);
+
+		}
+		if(langue.equals("it")) {
+			
+			
+				System.out.println("Personna nom : " + nom + ", prenomina : " + prenom + ", s : " + surnom);
+
+			}
+		}
+		
+	}
+
+

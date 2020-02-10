@@ -33,6 +33,8 @@ public class PersonneApp {
 		// aller chercher afficher detail sur la classe Personne
 
 		pers4.afficherDetail();
+		pers4.afficherDetail("en");
+		pers4.afficherDetail("it");
 
 	}
 

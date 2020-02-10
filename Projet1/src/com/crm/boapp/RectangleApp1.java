@@ -21,6 +21,7 @@ public class RectangleApp1 {
 		rect1.setLongueur(50);
 		rect1.afficherSurface();
 
+		System.out.println(rect1.calculPerimetre("cm"));
 		Rectangle rect2 = new Rectangle(3, 2);
 		rect2.afficherSurface();
 

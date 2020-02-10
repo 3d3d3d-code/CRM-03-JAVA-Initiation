@@ -1,8 +1,5 @@
 package com.crm.boapp;
 
-import java.util.Date;
-import java.util.Scanner;
-
 public class PersonneApp2 {
 
 	public static void main(String[] args) {
