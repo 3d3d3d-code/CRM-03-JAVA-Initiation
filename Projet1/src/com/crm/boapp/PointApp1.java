@@ -7,18 +7,17 @@ package com.crm.boapp;
  * @author reda
  *
  */
-public class Coordonnées {
+public class PointApp1 {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		
-		Coordonnées cor= new Coordonnées();
-		//cor.abs =5;
 		
-		
-
+	
+	
 	}
+	
 
 }

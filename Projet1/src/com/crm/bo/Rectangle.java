@@ -7,7 +7,7 @@ package com.crm.bo;
  * @author reda
  * @version 1.0
  * @updated 05-févr.-2020 09:06:48
- *
+ *la class rectangle est la classe metier
  */
 public class Rectangle {
 
