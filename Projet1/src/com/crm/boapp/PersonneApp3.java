@@ -20,7 +20,7 @@ public class PersonneApp3 {
 		Scanner sc = new Scanner(System.in);
 		//question nbr de personnes a l'utilisateur
 		
-		System.out.println("combien y a t il de personnes? ");
+		System.out.println("combien y a t il de personnes? "); 
 		int nbre ;
 		nbre= sc.nextInt();
 		
