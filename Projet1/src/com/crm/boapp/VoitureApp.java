@@ -44,7 +44,7 @@ public class VoitureApp {
 				System.out.println("vous ne devez pas depasser les 30 km/h");
 
 			} else {
-				System.out.println("reste chez toi gros naze");
+				System.out.println("veuillez repreciser svp");
 				return;
 			}
 
@@ -73,6 +73,10 @@ public class VoitureApp {
 					vitesse = Integer.parseInt(sc.nextLine());
 					voit.accelerer(vitesse);
 					System.out.println("votre vitesse est de " + voit.getVitesse() + " km/h");
+					
+					if (getVitesse()<50) {
+						System.out.println("vous devez etre a moins de 50 km/h");
+					}
 
 				}
 			}
@@ -83,5 +87,10 @@ public class VoitureApp {
 			System.out.println("restez chez vous");
 
 		}
+	}
+
+	private static int getVitesse() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }

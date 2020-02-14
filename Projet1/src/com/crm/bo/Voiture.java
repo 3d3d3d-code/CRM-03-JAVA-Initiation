@@ -21,6 +21,7 @@ public class Voiture {
 	 */
 	public void setVitesseVoiture(int vitesseVoiture) {
 		this.vitesseVoiture = vitesseVoiture;
+
 	}
 
 	/**
@@ -124,7 +125,7 @@ public class Voiture {
 	}
 
 	public Voiture() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	/**
@@ -203,8 +204,11 @@ public class Voiture {
 
 	public int accelerer(int vitesse) {
 
-		return vitesseVoiture = getVitesse() + vitesse;
 
+		
+		
+		return vitesseVoiture = getVitesse() + vitesse;
+		
 	}
 
 	public int ralentir(int vitesse) {
@@ -224,7 +228,10 @@ public class Voiture {
 	}
 
 	public void typeAutoroute() {
-		
+		if(accelerer(getVitesse())<50) {
+			System.out.println("");
+			
+		}
 
 	}
 
