@@ -10,13 +10,15 @@
 package com.crm.api; //// class aire cercle
 
 /**
- * @author CRM
+ * @author reda
  *
  */
 public class AireCercle {
 
 	/**
 	 * @param args
+	 * attributs avec valeur donnée au rayon
+	 * 
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,7 +26,7 @@ public class AireCercle {
 		double R = 6;
 		double aire;
 		
-
+		
 		aire = Utils.aireCercle(R);
 
 		System.out.println(aire);
