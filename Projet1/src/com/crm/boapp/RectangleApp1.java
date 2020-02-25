@@ -7,6 +7,7 @@ import com.crm.bo.Rectangle;
 
 /**
  * @author reda
+ * 
  *
  */
 public class RectangleApp1 {

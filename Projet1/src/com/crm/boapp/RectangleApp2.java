@@ -4,8 +4,17 @@ import java.util.Scanner;
 
 import com.crm.bo.Rectangle;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class RectangleApp2.
+ */
 public class RectangleApp2 {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		// demander la couleur du rectangle

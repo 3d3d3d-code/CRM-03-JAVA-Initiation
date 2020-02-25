@@ -1,6 +1,8 @@
 
 com.crm.api
+com.crm.bo
+com.crm.boapp
+com.crm.evaluation.m7
 com.crm.formation
 java
-monPackage
 scanner.java

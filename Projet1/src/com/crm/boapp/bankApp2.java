@@ -16,6 +16,7 @@ public class bankApp2 {
 
 	/**
 	 * @param args
+	 * instanciation d'un objet
 	 */
 	public static void main(String[] args) {
 

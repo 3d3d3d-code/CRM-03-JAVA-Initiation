@@ -5,12 +5,13 @@ package com.crm.bo;
 
 /**
  * @author reda
- *
+ * classe metier 
  */
 public class Voiture {
 
 	/**
-	 * @return the vitesseVoiture
+	 * @args the vitesseVoiture
+	 * creation des getter/setter
 	 */
 	public int getVitesseVoiture() {
 		return vitesseVoiture;
@@ -65,6 +66,10 @@ public class Voiture {
 	public void setVillage(boolean village) {
 		this.village = village;
 	}
+	/*
+	 * declaration des variables 
+	 * 
+	 */
 
 	private String marque;
 	private String couleur;
@@ -118,7 +123,7 @@ public class Voiture {
 	}
 
 	/**
-	 * @param vitesse the vitesse to set
+	 * @param rajout vitesse en paramètre
 	 */
 	public void setVitesse(int vitesse) {
 		this.vitesseVoiture = vitesse;

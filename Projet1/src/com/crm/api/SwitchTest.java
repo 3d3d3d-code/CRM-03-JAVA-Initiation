@@ -2,8 +2,17 @@ package com.crm.api;
 
 import java.util.Scanner;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class SwitchTest.
+ */
 public class SwitchTest {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		//Scanner sc= new Scanner(System.in);
 		int choix= 65;

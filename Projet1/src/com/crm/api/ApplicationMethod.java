@@ -3,14 +3,19 @@
  */
 package com.crm.api;
 
+// TODO: Auto-generated Javadoc
 /**
- * @author CRM
+ * The Class ApplicationMethod.
  *
+ * @author CRM
  */
 public class ApplicationMethod {
 
 	/**
-	 * @param args
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 * initialisation des attributs
 	 */
 	public static void main(String[] args) {
 		int nb=6;

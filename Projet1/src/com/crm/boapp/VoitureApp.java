@@ -4,10 +4,22 @@ import java.util.Scanner;
 
 import com.crm.bo.Voiture;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class VoitureApp.
+ */
 public class VoitureApp {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
-		// creation d'objets
+		
+		/*instanciation  d'objets
+		 * *
+		 */
 
 		Voiture voit = new Voiture("ford", "bleu", 5, "automatique", 25000);
 
@@ -89,6 +101,11 @@ public class VoitureApp {
 		}
 	}
 
+	/**
+	 * Gets the vitesse.
+	 *
+	 * @return the vitesse
+	 */
 	private static int getVitesse() {
 		// TODO Auto-generated method stub
 		return 0;
