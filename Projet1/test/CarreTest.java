@@ -9,18 +9,18 @@ public class CarreTest {
 	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Entrez le coté du carré");
-		int coté = sc.nextInt();
+		System.out.println("Entrez le cote du carre");
+		int cote = sc.nextInt();
 		// exercice dessiner un carre
 
 		int i;
 		int j;
                       
-		for (i = 0; i < coté; i++) {
-			for (j = 0; j < coté; j++) {
+		for (i = 0; i < cote; i++) {
+			for (j = 0; j < cote; j++) {
 
-				System.out.print("carré ");
-				System.out.print("carré");
+				System.out.print("carre ");
+				System.out.print("carre");
 			
 			System.out.println("\n");
 

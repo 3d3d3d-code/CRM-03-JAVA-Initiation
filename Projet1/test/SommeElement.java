@@ -9,7 +9,7 @@ public class SommeElement {
 		int somme = SommeElement.sommeElementTableau(tab1);
 		System.out.println(somme);
 
-		int tab2[] = new int[5];
+		int tab2[] = new int[3];
 
 		for (int i = 0; i < tab2.length; i++) {
 			System.out.println("taper un nombre");
